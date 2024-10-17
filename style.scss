@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    height: 13vh;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF69B4;
+    color: #E4EEF1;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    h1{
+        font-size: 20px;
+        font-weight: normal;}
+    img{
+        height: 12vh;
+        border-radius: 15px;}
+}
+
+nav{
+    width: 40%;
+
+    ul{
+        display: flex;
+        justify-content: space-between;}
+    
+    a{
+        color: #E4EEF1;
+        font-size: 20px;}
+}
+
+.SessãoPrevenção{
+    background-color: #FFD9EC;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    p{
+        width: 40%;
+        font-size: 22px;}
+
+    img{
+        height: 37vh;
+        border-radius: 15px;}
+}
+
+.SessãoConscientização{
+    background-color: #FF69B4;
+    color: #E4EEF1;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    p{
+        width: 40%;
+        font-size: 22px;}
+
+    img{
+        height: 30vh;}
+}
+
+.SessãoCuidados{
+    background-color: #FFD9EC;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img{
+        height: 30vh;}
+}
+
+footer{
+    background-color: #FF69B4;
+    color: #E4EEF1;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.RedeSociais img{
+    height: 8vh;
+}
+
+.SessãoAluno{
+    display: flex;
+        flex-direction: column;
+
+        p{
+            margin: -4px 0;}
+    
+}
+
+
